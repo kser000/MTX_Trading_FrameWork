@@ -1,0 +1,62 @@
+# ===== 原始檔案類型 =====
+*.txt
+*.png
+*.zip
+*.csv
+*.joblib
+*.pth
+
+# ===== 資料檔副檔名 =====
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.arrow
+*.tar
+*.tar.gz
+*.gz
+
+# ===== 模型權重 =====
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# ===== 原始資料夾（原本就有的） =====
+train_log/
+train_log_no2024/
+trained_csv/
+valid_csv/
+trained_model/
+synthetic_data/
+synthetic_data_origin/
+synthetic_data_before_exe34/
+synthetic_data_dailyMethod/
+synthetic_data_dailyMethod_copy/
+trash/
+trendGraph/
+cumulativeGraph/
+profitGraph/
+StockMarketVisualizer/
+
+# ===== 資料目錄（新增） =====
+MTX_rawdata/
+processed_data/
+processed_data_*/
+raw_data/
+data/
+datasets/
+backtest_results/
+results/
+results_*/
+logs/
+checkpoints/
+
+# ===== 即時交易暫存 =====
+RealTimeWork/trade/
+RealTimeWork/*.log
+RealTimeWork/shioaji.log
